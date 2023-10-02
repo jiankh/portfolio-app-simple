@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.header {
+    padding: 10px 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.logo {
+    height: 50px;
+}
+
+.github-logo {
+    height: 25px;
+}
+
+.nav>ul {
+    display: flex;
+    gap: 20px
+}
+li {
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: lightblue;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.footer-github {
+    display: flex;
+    align-items: center;
+}
