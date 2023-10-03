@@ -31,7 +31,7 @@ body {
 li {
     list-style: none;
 }
-li>a {
+a {
     text-decoration: none;
     color: black;
 }
