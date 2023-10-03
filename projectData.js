@@ -18,7 +18,7 @@ const Projects = [
     {
         title: "Tic Tac Toe",
         img: "./images/tictactoe.png",
-        description: "Javascript application of the classic game Tic Tac Toe. Features Multiplayer and Single player. Includes an upbeatable AI when playing singleplayer mode, made with the MiniMax Algorithm",
+        description: "Javascript application of the classic game Tic Tac Toe. Features Multiplayer and Single player. Includes an upbeatable AI when playing singleplayer mode, made with the MiniMax Algorithm.",
         codeLink: "https://github.com/jiankh/tictactoe",
         previewLink: "https://jiankh.github.io/tictactoe/"
     },
@@ -31,22 +31,22 @@ const Projects = [
     },
     {
         title: "Pygame Platformer",
-        img: "",
-        description: "[WIP] Pygame based game. Platformer adventure game with a main character similar to the fairy tale of Little Red Riding Hood needs to navigate through the forest to reach a destination.",
+        img: "./images/PygameSample.gif",
+        description: "[WIP] Pygame based game. Platformer adventure game with a main character inspired by the fairy tale of Little Red Riding Hood. The player needs to navigate through the forest to reach a destination.",
         codeLink: "https://github.com/jiankh/RedHood",
         previewLink: ""
     },
     {
         title: "Rock Paper Scissor",
         img: "./images/RPS.png",
-        description: "A classic game of Rock Paper Scissors. Game is first to get 5 wins.",
+        description: "A classic game of Rock Paper Scissors. First to win 5 rounds wins the match! ",
         codeLink: "https://github.com/jiankh/RPS_game",
         previewLink: "https://jiankh.github.io/RPS_game/"
     },
     {
         title: "Task To-Do List",
         img: "",
-        description: "[WIP] A To-Do List application. Features options to create a section and add tasks to the specific section that can be checked off. The focus of this project was to use LocalStorage to manage input information and organize the project in Modules while using Webpack.",
+        description: "[WIP] A To-Do List application. Features options to create sections and add tasks to the specific section that can be checked off. The focus of this project was to use LocalStorage to manage user information and organize the project in Modules while using Webpack.",
         codeLink: "https://github.com/jiankh/to-do-list",
         previewLink: ""
     },
@@ -60,7 +60,7 @@ const Projects = [
     {
         title: "Dashboard",
         img: "./images/dashboard.png",
-        description: "This is a simple sample Dashboard created to focus on UX and Grid Layouts in CSS",
+        description: "A simple sample Dashboard created that focuses on UX and Grid Layouts in CSS",
         codeLink: "https://github.com/jiankh/dashboardSample",
         previewLink: "https://jiankh.github.io/dashboardSample/"
     }   
