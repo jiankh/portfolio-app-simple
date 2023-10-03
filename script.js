@@ -20,9 +20,10 @@ function createProject(img, title, description, codeLink, previewLink) {
     projectContainer.appendChild(project)
 }
 
-
-
 Projects.forEach((project) => {
     createProject(project.img, project.title, project.description, project.codeLink, project.previewLink)
 })
-
+const disabledButtons = document.querySelectorAll('input[type="button"][onclick="location.href=\'\';"]');
+disabledButtons.forEach((button)=> {
+    button.disabled = true
+})
