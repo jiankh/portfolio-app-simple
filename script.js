@@ -23,7 +23,6 @@ function createProject(img, title, description, codeLink, previewLink) {
 
 
 Projects.forEach((project) => {
-    console.log("Hello")
     createProject(project.img, project.title, project.description, project.codeLink, project.previewLink)
 })
 

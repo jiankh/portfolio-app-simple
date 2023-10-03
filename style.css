@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family:sans-serif;
+}
+
+:root {
+    --dark-color: rgb(100,100,100);
+    --medium-color: lightblue;
+    --light-color:#f0f9ff;
 }
 
 body {
@@ -8,12 +15,16 @@ body {
     flex-direction: column;
 }
 
+h1 {
+    font-weight: 800;
+}
+
 .header {
     padding: 10px 15vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightblue;
+    background-color: var(--medium-color);
 }
 
 .logo {
@@ -24,20 +35,32 @@ body {
     height: 25px;
 }
 
+/* NAV  */
 .nav>ul {
     display: flex;
-    gap: 20px
+    gap: 40px
 }
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: var(--dark-color);
+}
+a:hover {
+    text-decoration: underline;
 }
 
 .header, footer {
     flex:1;
+}
+
+.main-name {
+    color: black;
+}
+
+.main-message {
+    color: var(--dark-color)
 }
 
 .content {
@@ -45,15 +68,23 @@ a {
     justify-content: center;
     align-items: center;
     min-height: 88vh;
+    box-shadow: 1px 2px 3px inset lightgray;
 }
 
+ul> li {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* FOOTER */
 footer {
-    background-color: lightblue;
+    background-color: var(--medium-color);
     display: flex;
     gap: 50px;
     justify-content: center;
     align-items: center;
     padding: 15px;
+    font-weight: 600;
 }
 .footer-github {
     display: flex;
@@ -69,14 +100,50 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
     padding: 30px 0;
 }
 
 .project {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 50vw;
+    max-width: 60vw;
     padding: 10px;
+    gap: 50px;
 }
 
+.project-img > img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+.description {
+    flex-grow: 1;
+    font-size: 1.2rem;
+}
+
+input[value="View Code"], input[value="Live Preview"] {
+    padding: 5px 10px;
+    margin: 5px 10px 5px 0;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: var(--dark-color);
+    color: white;
+    cursor: pointer;
+}
