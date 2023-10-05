@@ -79,8 +79,28 @@ a:hover {
     flex:1;
 }
 
+/* MAIN MESSAGE */
+
+@keyframes pulse {
+	0% {
+		transform: translateX(5px);
+	}
+
+	70% {
+		transform: translateX(-5px);
+	}
+
+	100% {
+		transform: translateX(5px);
+	}
+}
+
+
+
 .main-name {
     color: black;
+    transform: scale(1);
+	animation: pulse 2s infinite;
 }
 
 .main-message {

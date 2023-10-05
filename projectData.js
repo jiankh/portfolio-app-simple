@@ -2,6 +2,13 @@
 
 const Projects = [
     {
+        title: "WeatherApp",
+        img: "./images/weatherapp.png",
+        description: "Weather App created using WeatherAPI. The application retrieves data from the API based on the input location and displays the current weather along with other details for the day. It also shows the hourly forecast and a forecast for the next 3 days. It also features a switch to change between Fahrenheit and Celsius",
+        codeLink: "https://github.com/jiankh/weather-app",
+        previewLink: "https://jiankh.github.io/weather-app/"
+    },
+    {
         title: "Calculator",
         img: "./images/calculator.png",
         description: "Full functional simple calculator developed using HTML/CSS/JavaScript. Handles the basic mathemical equations.",
