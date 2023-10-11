@@ -9,11 +9,11 @@ const Projects = [
         previewLink: "https://jiankh.github.io/weather-app/"
     },
     {
-        title: "Calculator",
-        img: "./images/calculator.png",
-        description: "Full functional simple calculator developed using HTML/CSS/JavaScript. Handles the basic mathemical equations.",
-        codeLink: "https://github.com/jiankh/calculator",
-        previewLink: "https://jiankh.github.io/calculator/"
+        title: "Binary Search Tree",
+        img: "./images/BST.png",
+        description: "Binary Search Tree application that shows the different types of traversals through a binary search tree. This visual guide helps people understand BST and has interactive features like inserting nodes, deleting nodes, finding the depth of a specific node, and also re-balancing of the BST.",
+        codeLink: "https://github.com/jiankh/dsa_exercises/tree/main/binary_search_trees",
+        previewLink: "https://jiankh.github.io/dsa_exercises/"
     },
     {
         title: "Bakery Website",
@@ -28,6 +28,13 @@ const Projects = [
         description: "Javascript application of the classic game Tic Tac Toe. Features Multiplayer and Single player. Includes an upbeatable AI when playing singleplayer mode, made with the MiniMax Algorithm.",
         codeLink: "https://github.com/jiankh/tictactoe",
         previewLink: "https://jiankh.github.io/tictactoe/"
+    },
+    {
+        title: "Calculator",
+        img: "./images/calculator.png",
+        description: "Full functional simple calculator developed using HTML/CSS/JavaScript. Handles the basic mathemical equations.",
+        codeLink: "https://github.com/jiankh/calculator",
+        previewLink: "https://jiankh.github.io/calculator/"
     },
     {
         title: "Sketch Book",
