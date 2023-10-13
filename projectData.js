@@ -30,6 +30,13 @@ const Projects = [
         previewLink: "https://jiankh.github.io/tictactoe/"
     },
     {
+        title: "Knight Travails",
+        img: "./images/knight-travails.png",
+        description: "The famous Binary Tree Search excercise Knight Travails, but visualized. The knight chess piece is able to travail the chessboard to any cell on the board. This application shows the shortest path that could be taken to a destination selected. The method used to get the shortest path is by utilizing Breadth First Traversal.",
+        codeLink: "https://github.com/jiankh/knights-travails",
+        previewLink: "https://jiankh.github.io/knights-travails"
+    },
+    {
         title: "Calculator",
         img: "./images/calculator.png",
         description: "Full functional simple calculator developed using HTML/CSS/JavaScript. Handles the basic mathemical equations.",
